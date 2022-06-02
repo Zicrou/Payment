@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :apps
   resources :payments
   resources :pays
   get 'page/index'
